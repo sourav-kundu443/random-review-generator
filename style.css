@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #e2e2e2;
+}
+
+nav {
+    background-color: #fff;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 10px 5px rgb(139, 139, 139);
+}
+
+nav > a {
+    text-decoration: none;
+    font-family: fantasy;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: rgb(14, 165, 157);
+}
+
+nav > a:hover {
+    color: rgb(36, 235, 225);
+}
+
+.container {
+    /* border: 2px solid black; */
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #366428;
+    letter-spacing: 1px;
+}
+
+.underline {
+    background-color: rgb(36, 235, 225);
+    padding: 2px 5px;
+    width: 40px;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+
+.img-container {
+    background-color: #fff;
+    width: 30%;
+    margin: -80px auto;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 5px 5px 10px 5px rgb(139, 139, 139);
+}
+
+.img-container > img {
+    width: 30%;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.img-container > h4 {
+    font-family: monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.img-container #job {
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    color: rgb(14, 165, 157);
+    padding: 5px 0;
+}
+
+.img-container #info {
+    font-size: 12px;
+    padding: 10px;
+}
+
+.prev-btn {
+    color: rgb(14, 165, 157);
+    border: none;
+    background-color: #fff;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.prev-btn:hover {
+    color: rgb(36, 235, 225);
+}
+
+.next-btn {
+    color: rgb(14, 165, 157);
+    border: none;
+    background-color: #fff;
+    outline: none;
+    font-size: 18px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.next-btn:hover {
+    color: rgb(36, 235, 225);
+}
+
+.random-btn {
+    background-color: transparent;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: monospace;
+    text-transform: capitalize;
+    border: 2px solid rgb(14, 165, 157);
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 10px 0;
+    color: rgb(14, 165, 157);
+    outline: none;
+}
+
+.random-btn:hover {
+    border: 2px solid rgb(36, 235, 225);
+    color: rgb(36, 235, 225);
+}
